@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "trips",
+  "info": {
+    "name": "Trip"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "CoverImage": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "gps": {
+      "type": "json"
+    },
+    "users": {
+      "plugin": "users-permissions",
+      "collection": "user"
+    },
+    "tracks": {
+      "collection": "track"
+    }
+  }
+}
