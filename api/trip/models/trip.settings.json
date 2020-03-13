@@ -20,9 +20,6 @@
       "plugin": "upload",
       "required": false
     },
-    "Description": {
-      "type": "richtext"
-    },
     "gps": {
       "type": "json"
     },
@@ -32,6 +29,9 @@
     },
     "tracks": {
       "collection": "track"
+    },
+    "commentary": {
+      "type": "richtext"
     }
   }
 }

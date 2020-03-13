@@ -595,9 +595,6 @@
               "CoverImage": {
                 "type": "string"
               },
-              "Description": {
-                "type": "string"
-              },
               "gps": {
                 "type": "object"
               },
@@ -605,6 +602,9 @@
                 "type": "string"
               },
               "tracks": {
+                "type": "string"
+              },
+              "commentary": {
                 "type": "string"
               }
             }

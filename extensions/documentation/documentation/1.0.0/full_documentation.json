@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "03/12/2020 6:53:58 PM"
+    "x-generation-date": "03/13/2020 12:01:12 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -3305,9 +3305,6 @@
               "CoverImage": {
                 "type": "string"
               },
-              "Description": {
-                "type": "string"
-              },
               "gps": {
                 "type": "object"
               },
@@ -3315,6 +3312,9 @@
                 "type": "string"
               },
               "tracks": {
+                "type": "string"
+              },
+              "commentary": {
                 "type": "string"
               }
             }
@@ -3398,9 +3398,6 @@
               }
             }
           },
-          "Description": {
-            "type": "string"
-          },
           "gps": {
             "type": "object"
           },
@@ -3470,6 +3467,9 @@
                 "type": "string"
               }
             }
+          },
+          "commentary": {
+            "type": "string"
           }
         }
       },
@@ -3481,9 +3481,6 @@
           "name": {
             "type": "string"
           },
-          "Description": {
-            "type": "string"
-          },
           "gps": {
             "type": "object"
           },
@@ -3491,6 +3488,9 @@
             "type": "string"
           },
           "tracks": {
+            "type": "string"
+          },
+          "commentary": {
             "type": "string"
           }
         }
@@ -3698,9 +3698,6 @@
               "CoverImage": {
                 "type": "string"
               },
-              "Description": {
-                "type": "string"
-              },
               "gps": {
                 "type": "object"
               },
@@ -3708,6 +3705,9 @@
                 "type": "string"
               },
               "tracks": {
+                "type": "string"
+              },
+              "commentary": {
                 "type": "string"
               }
             }
